@@ -1,2 +1,2 @@
 # ReactNative
-React Native
+React Native sample application
