@@ -1,4 +1,6 @@
 ## GUSS A NUMBER app
+### source is Maxi from UDAMY Section 4: Components, Styling, Layouts - Building Real Apps
+
 build an application where I want to have a little header at the top, so a little bar at the top which simply displays the title which is guess a number because we'll build an application where you enter a number and the app will try to guess it.
 
 we'll have a starting screen where you have an input for your number which the user of the app can enter and then of course, we'll have two buttons, basically a confirm button here and a reset button here, so two buttons that allow us to control that input, then a button to basically start the game.
