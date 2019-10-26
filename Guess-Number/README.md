@@ -21,7 +21,7 @@ So basically a summary and also a button to basically restart and play a new rou
 #### Step 2 : Create the Headr.js component . prepare the style and contnets
           #### Step 2.1 : create shadow for card
 #### Step 3 : Create the Screen.js component . prepare the style and contnets
-#### Step 4 : Build first reuse component which is the shadow card will act like container .
+#### Step 4 : Build first reuse component which is the shadow card will act like container . pay attention to this code for object distrubutiona see the props.children
 > ```javascript
 > <View style={{ ...styles.card, ...props.style }}>{props.children}</View>
 > ```
