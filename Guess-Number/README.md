@@ -1,4 +1,5 @@
 ## GUSS A NUMBER app
+
 ### source is Maxi from UDAMY Section 4: Components, Styling, Layouts - Building Real Apps
 
 build an application where I want to have a little header at the top, so a little bar at the top which simply displays the title which is guess a number because we'll build an application where you enter a number and the app will try to guess it.
@@ -14,3 +15,11 @@ so once the game is over basically, we'll have a game over screen here where we 
 So basically a summary and also a button to basically restart and play a new round with a new number. 
 
 <div style="text-align: right"> So the nice thing about this application is that whilst it of course isn't overly complex, there aren't tens of dozens of screens involved but whilst that is the case, we have a lot of different components which we also can style and layout, we use an image, we'll use our own custom fonts and we have also quite a bit of business logic in there to control the guessing, to check whether the correct number was guessed and so on. So it's a really nice app, a real nice second step which will make sure that all the basics are super clear and set after this module so that you are more than well-prepared for more advanced applications after this great application here. </div>
+
+### Implementation
+#### Step 1 : Create the container may be the app.js as an empty component .
+#### Step 2 : Create the Headr.js component . prepare the style and contnets
+          #### Step 2.1 : create shadow for card
+#### Step 3 : Create the Screen.js component . prepare the style and contnets
+#### Step 4 : Build first reuse component which is the shadow card will act like container .
+
