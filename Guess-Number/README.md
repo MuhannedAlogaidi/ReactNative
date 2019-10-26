@@ -23,7 +23,7 @@ So basically a summary and also a button to basically restart and play a new rou
 #### Step 3 : Create the Screen.js component . prepare the style and contnets
 #### Step 4 : Build first reuse component which is the shadow card will act like container .
 > ```javascript
- <View style={{ ...styles.card, ...props.style }}>{props.children}</View>
- ```
+> <View style={{ ...styles.card, ...props.style }}>{props.children}</View>
+> ```
 
 
