@@ -11,8 +11,8 @@ const StartGameScreen = props => {
         <Text>Select a Number</Text>
         <TextInput />
         <View style={styles.buttonContainer}>
-          <Button title="Reset" onPress={() => { }} />
-          <Button title="Confirm" onPress={() => { }} />
+          <Button title="Reset" onPress={() => { }} color={Colors.accent}/>
+          <Button title="Confirm" onPress={() => { }} color={Colors.primary}/>
         </View>
       </Card>
     </View>
