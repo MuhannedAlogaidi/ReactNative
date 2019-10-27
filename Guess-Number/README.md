@@ -27,7 +27,9 @@ So basically a summary and also a button to basically restart and play a new rou
 > ```
 #### Step 5 : Build a reuse input component, notice the porps and style same as point 4.
           #### Step 5.1 : Import the input to Screen.js component , add the event to handle the input changes
-          #### Step 5.2 : Use TouchableWithoutFeedback the touchable without feedback component, so a component that allows us to                                 register a touch listener without giving any visual feedback because. on there, we can now register or listen                           to the press event and when a press happens, I want to dismiss the keyboard and for that, React Native gives
-                          us a useful API we can import from React Native and that's the keyboard API. That's now not a component but                             that's an API where we can interact with the native device itself
+          #### Step 5.2 : Use TouchableWithoutFeedback the touchable without feedback component, so a component that allows us to
+          gister a touch listener without giving any visual feedback because. on there, we can now register or listen 
+          to the press event and when a press happens, I want to dismiss the keyboard and for that, React Native gives 
+          us a useful API we can import from React Native and that's the keyboard API. That's now not a component but                             that's an API where we can interact with the native device itself
                           
 
