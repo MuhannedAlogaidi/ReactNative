@@ -25,5 +25,5 @@ So basically a summary and also a button to basically restart and play a new rou
 > ```javascript
 > <View style={{ ...styles.card, ...props.style }}>{props.children}</View>
 > ```
-
+#### Step 5 : Build a reuse input component, notice the porps and style same as point 4. 
 
