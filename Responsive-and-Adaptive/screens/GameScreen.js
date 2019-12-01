@@ -13,7 +13,7 @@ import { ScreenOrientation } from 'expo';
 
 import NumberContainer from '../components/NumberContainer';
 import Card from '../components/Card';
-import MainButton from '../components/MainButton';
+import MainButton from '../components/dynamicButton';
 import BodyText from '../components/BodyText';
 import DefaultStyles from '../constants/default-styles';
 

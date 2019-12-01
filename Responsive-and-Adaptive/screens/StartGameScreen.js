@@ -17,7 +17,7 @@ import Input from '../components/Input';
 import NumberContainer from '../components/NumberContainer';
 import BodyText from '../components/BodyText';
 import TitleText from '../components/TitleText';
-import MainButton from '../components/MainButton';
+import MainButton from '../components/dynamicButton';
 import Colors from '../constants/colors';
 
 const StartGameScreen = props => {

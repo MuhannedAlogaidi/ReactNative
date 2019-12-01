@@ -11,7 +11,7 @@ import {
 
 import BodyText from '../components/BodyText';
 import TitleText from '../components/TitleText';
-import MainButton from '../components/MainButton';
+import MainButton from '../components/dynamicButton';
 import Colors from '../constants/colors';
 
 const GameOverScreen = props => {
