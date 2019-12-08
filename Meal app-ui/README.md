@@ -36,5 +36,7 @@ PUSH , POP and replace are another way to navigate between screens . PUSH and PO
 an also on the landing page should read the param that comes with the navigation or from , see this line :
   const catId = props.navigation.getParam('categoryId');
 8- Read the default options for navigation for            
-
-
+9- Header button  : this button appears on top right or left but you need to install the followign  
+  9.1- icon  : npm install --save @expo/vector-icons and  npm install --save react-navigation-header-buttons
+10- Adding based buttons : this is look-like  taskbar it is on the bottoms . at min 4:00 Max explanied how to combine more than one navigation. 
+    Notice with defalut navigations see lec 130
