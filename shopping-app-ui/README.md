@@ -8,7 +8,7 @@ react-naviation: for navigation services.
 redux : for state management
 react-navigation-header-buttons : This will add header buttons and we want to have these nicely styled and positioned buttons without having to do all that styling positioning on my own.
 
-2-
+3- expo install React-native-gesture-handler react-native-reanimated
 
 PLANNING SECTION : 
 1- Lec 157 for planning to that project and what screens we need and the purpose of this screen
