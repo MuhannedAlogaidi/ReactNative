@@ -3,8 +3,8 @@ import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
 
 import productsReducer from './store/reducers/products';
+import ShopNavigator from './navigation/ShopNavigator';
 
-// in enhancement iteration we should keep it like NUSS
 const rootReducer = combineReducers({
   products: productsReducer
 });
