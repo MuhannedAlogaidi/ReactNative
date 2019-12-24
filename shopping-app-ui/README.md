@@ -9,6 +9,16 @@ redux : for state management
 react-navigation-header-buttons : This will add header buttons and we want to have these nicely styled and positioned buttons without having to do all that styling positioning on my own.
 
 3- expo install React-native-gesture-handler react-native-reanimated
+4- install the following libs for navigation:
+    1- npm install --save react-navigation-stack
+    import { createStackNavigator } from 'react-navigation-stack';
+
+    2- npm install --save react-navigation-tabs
+    import { createBottomTabNavigator } from 'react-navigation-tabs';
+
+    3- npm install --save react-navigation-drawer
+    import { createDrawerNavigator } from 'react-navigation-drawer';
+
 
 PLANNING SECTION : 
 1- Lec 157 for planning to that project and what screens we need and the purpose of this screen
@@ -31,6 +41,8 @@ also add actions and reducers folders inside the store folder for redux to manag
 also setup dummay data.
 
 in App.js we need to import the createStore,combinedReducers and Providers and then create the root reducer and also make the Provider HOC wrap-up the App.js export part
+
+4- Lec 160 Setting Up a Navigator : useSelector used here to read from redux.setting up the navigation in the shopNavigator.js here is the stackNavigation with [screens and navigation default options] should be defined and options are added
 
 
 
