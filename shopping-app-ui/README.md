@@ -18,7 +18,7 @@ react-navigation-header-buttons : This will add header buttons and we want to ha
 
     3- npm install --save react-navigation-drawer
     import { createDrawerNavigator } from 'react-navigation-drawer';
-
+5- expo fonts: npm install --save expo-font
 
 PLANNING SECTION : 
 1- Lec 157 for planning to that project and what screens we need and the purpose of this screen
@@ -43,6 +43,13 @@ also setup dummay data.
 in App.js we need to import the createStore,combinedReducers and Providers and then create the root reducer and also make the Provider HOC wrap-up the App.js export part
 
 4- Lec 160 Setting Up a Navigator : useSelector used here to read from redux.setting up the navigation in the shopNavigator.js here is the stackNavigation with [screens and navigation default options] should be defined and options are added
+
+5- Lec 161 : styling the list of products and create a template component called ProductItem.js
+6- Lec 162 :  Adding Touchable Component 
+7- Lec 163 :  Working on the Product Details Screen , notice the scroll view and style and events in this component
+8- Lec 164:Using Custom Fonts , here are we need to install expo fonts and modify the App.js to load the fonts or fetch them and put condition in case of font not loaded yet , dont render anything .
+
+
 
 
 
