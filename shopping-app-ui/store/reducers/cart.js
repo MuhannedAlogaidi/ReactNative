@@ -54,5 +54,6 @@ export default (state = initialState, action) => {
         totalAmount: state.totalAmount - selectedCartItem.productPrice
       };
   }
+
   return state;
 };
